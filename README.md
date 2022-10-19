@@ -7,8 +7,11 @@ This repository has the code for the paper Towards Robust NLG Bias Evaluation wi
 ## Create a conda environment with all dependencies
 
 ```conda create -n robust_nlg_bias python```
+
 ```conda activate robust_nlg_bias```
+
 ```conda install pip```
+
 ```pip install -r requirements.txt```
 
 ## Generate output texts using automatically generated syntactically-diverse prompts
@@ -31,6 +34,7 @@ This repository has the code for the paper Towards Robust NLG Bias Evaluation wi
 * Run the following commands to use our repository:
 
 ```python scripts/aggregated_analysis.py --seeds="21,12,3,30,9,18,36,45,54,27" --dir_name=data/generated-outputs/```
+
 ```python scripts/segregated_analysis.py --seeds="21,12,3,30,9,18,36,45,54,27" --dir_name=data/generated-outputs/```
 
 ## Citation
